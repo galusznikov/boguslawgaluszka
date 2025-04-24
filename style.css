@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -25,4 +26,33 @@ body {
     align-items: left;
     width: 15%;
     height: 15%;
+=======
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #0057b7;
+    color: white;
+    padding: 30px 0;
+    border-radius: 4px;
+  }
+  
+  section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .profile img{
+    align-items: left;
+    width: 15%;
+    height: 15%;
+>>>>>>> 233a6b54b4d48e291d5ae0b5f0b6712cb28541ec
   }
