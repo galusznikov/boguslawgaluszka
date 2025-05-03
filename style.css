@@ -25,7 +25,7 @@ body {
   }
 
   ul {
-    list-style-type: disc; /* Użyj kropek */
+    list-style-type: none; /* Użyj kropek */
     padding-left: 20px; /* Odstęp od lewej strony */
   }
   
