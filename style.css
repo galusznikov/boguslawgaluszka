@@ -25,7 +25,7 @@ body {
   }
 
   ul {
-    list-style-type: none; /* Użyj kropek */
+    list-style-type:symbols(); /* Użyj kropek */
     padding-left: 20px; /* Odstęp od lewej strony */
   }
   
@@ -43,7 +43,7 @@ body {
     align-items: flex-start;
   }
 
-  .header-text {
+.header-text {
       flex: 0 1 auto;
   }
 
@@ -54,6 +54,11 @@ body {
   height: auto;
   margin-left: 20px;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.skills ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 @media (max-width: 768px) {
@@ -78,7 +83,8 @@ body {
   }
 
   section {
-    padding: 10px;
-    margin: 10px;
+    flex-direction: center;
+    text-align: center;
+    padding: 20px;
   }
 }
